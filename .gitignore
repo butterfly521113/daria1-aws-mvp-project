@@ -15,3 +15,18 @@ crash.log
 
 # Ignore backup directories
 .git_backup/
+
+# Terraform variable files with sensitive data
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# macOS files
+.DS_Store
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
